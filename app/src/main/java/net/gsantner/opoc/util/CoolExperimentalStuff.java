@@ -35,6 +35,7 @@ import java.util.concurrent.atomic.AtomicReference;
 // Just some experimental code
 public class CoolExperimentalStuff {
 
+
     public static String convertEpubToText(final File filepath, final String translatedStringForPage) {
         //final String filepath = new File("/sdcard/epub.epub");
         final StringBuilder sb = new StringBuilder();
