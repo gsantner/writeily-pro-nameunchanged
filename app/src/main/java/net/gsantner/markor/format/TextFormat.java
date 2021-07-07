@@ -26,6 +26,9 @@ import net.gsantner.markor.format.todotxt.TodoTxtTextConverter;
 import net.gsantner.markor.format.zimwiki.ZimWikiHighlighter;
 import net.gsantner.markor.format.zimwiki.ZimWikiTextActions;
 import net.gsantner.markor.format.zimwiki.ZimWikiTextConverter;
+import net.gsantner.markor.format.txt2tags.Txt2tagsHighlighter;
+import net.gsantner.markor.format.txt2tags.Txt2tagsTextActions;
+import net.gsantner.markor.format.txt2tags.Txt2tagsTextConverter;
 import net.gsantner.markor.model.Document;
 import net.gsantner.markor.ui.hleditor.Highlighter;
 import net.gsantner.markor.ui.hleditor.HighlightingEditor;
@@ -38,6 +41,7 @@ import java.util.Locale;
 public class TextFormat {
     public static final int FORMAT_UNKNOWN = 0;
     public static final int FORMAT_ZIMWIKI = R.string.action_format_zimwiki;
+    public static final int FORMAT_TXT2TAGS = R.string.action_format_txt2tags;
     public static final int FORMAT_MARKDOWN = R.string.action_format_markdown;
     public static final int FORMAT_PLAIN = R.string.action_format_plaintext;
     public static final int FORMAT_TODOTXT = R.string.action_format_todotxt;
@@ -45,6 +49,7 @@ public class TextFormat {
 
     public final static MarkdownTextConverter CONVERTER_MARKDOWN = new MarkdownTextConverter();
     public final static ZimWikiTextConverter CONVERTER_ZIMWIKI = new ZimWikiTextConverter();
+    public final static Txt2tagsTextConverter CONVERTER_TXT2TAGS = new Txt2tagsTextConverter();
     public final static TodoTxtTextConverter CONVERTER_TODOTXT = new TodoTxtTextConverter();
     public final static KeyValueConverter CONVERTER_KEYVALUE = new KeyValueConverter();
     public final static PlaintextConverter CONVERTER_PLAINTEXT = new PlaintextConverter();
@@ -54,6 +59,7 @@ public class TextFormat {
             CONVERTER_MARKDOWN,
             CONVERTER_TODOTXT,
             CONVERTER_ZIMWIKI,
+            CONVERTER_TXT2TAGS,
             CONVERTER_KEYVALUE,
             CONVERTER_PLAINTEXT,
     };
@@ -107,6 +113,13 @@ public class TextFormat {
                 format.setConverter(CONVERTER_ZIMWIKI);
                 format.setHighlighter(new ZimWikiHighlighter(hlEditor, document));
                 format.setTextActions(new ZimWikiTextActions(activity, document));
+                break;
+            }
+
+            case FORMAT_TXT2TAGS: {
+                format.setConverter(CONVERTER_TXT2TAGS);
+                format.setHighlighter(new Txt2tagsHighlighter(hlEditor, document));
+                format.setTextActions(new Txt2tagsTextActions(activity, document));
                 break;
             }
 

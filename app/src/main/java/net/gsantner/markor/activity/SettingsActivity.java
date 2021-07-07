@@ -367,6 +367,7 @@ public class SettingsActivity extends AppActivityBase {
                 case R.string.pref_key__plaintext__reorder_actions:
                 case R.string.pref_key__markdown__reorder_actions:
                 case R.string.pref_key__zimwiki__reorder_actions:
+                case R.string.pref_key__txt2tags__reorder_actions:
                 case R.string.pref_key__todotxt__reorder_actions: {
                     startActivity(new Intent(getActivity(), ActionOrderActivity.class).putExtra(ActionOrderActivity.EXTRA_FORMAT_KEY, keyResId));
                     break;

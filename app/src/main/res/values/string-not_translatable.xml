@@ -255,6 +255,21 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="tmaid_zimwiki_insert_link" translatable="false">tmaid_zimwiki_insert_link</string>
     <string name="tmaid_zimwiki_insert_image" translatable="false">tmaid_zimwiki_insert_image</string>
 
+
+    <string name="tmaid_txt2tags_h1" translatable="false">tmaid_txt2tags_h1</string>
+    <string name="tmaid_txt2tags_h2" translatable="false">tmaid_txt2tags_h2</string>
+    <string name="tmaid_txt2tags_h3" translatable="false">tmaid_txt2tags_h3</string>
+    <string name="tmaid_txt2tags_h4" translatable="false">tmaid_txt2tags_h4</string>
+    <string name="tmaid_txt2tags_h5" translatable="false">tmaid_txt2tags_h5</string>
+    <string name="tmaid_txt2tags_bold" translatable="false">tmaid_txt2tags_bold</string>
+    <string name="tmaid_txt2tags_italic" translatable="false">tmaid_txt2tags_italic</string>
+    <string name="tmaid_txt2tags_highlight" translatable="false">tmaid_txt2tags_highlight</string>
+    <string name="tmaid_txt2tags_strikeout" translatable="false">tmaid_txt2tags_strikeout</string>
+    <string name="tmaid_txt2tags_code_inline" translatable="false">tmaid_txt2tags_code_inline</string>
+    <string name="tmaid_txt2tags_insert_link" translatable="false">tmaid_txt2tags_insert_link</string>
+    <string name="tmaid_txt2tags_insert_image" translatable="false">tmaid_txt2tags_insert_image</string>
+    
+    
     <string name="tmaid_todotxt_toggle_done" translatable="false">tmaid_todotxt_toggle_done</string>
     <string name="tmaid_todotxt_add_context" translatable="false">tmaid_todotxt_add_context</string>
     <string name="tmaid_todotxt_add_project" translatable="false">tmaid_todotxt_add_project</string>
@@ -289,6 +304,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="file_template__zim_wiki_empty" translatable="false">zim-wiki-empty.txt</string>
     <string name="file_template__md_hugo_post_front_matter" translatable="false">hugo-post-front-matter.md</string>
     <string name="file_template__md_presentation_beamer" translatable="false">presentation-beamer.md</string>
+    <string name="file_template__t2t_txt2tags_reference" translatable="false">txt2tags-sample.t2t</string>
     <string name="key_value" translatable="false">Key - Value</string>
     <string name="ohm" translatable="false">Ohm (Ω)</string>
     <string name="debug" translatable="false">Debug</string>
@@ -315,6 +331,9 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="pref_key__editor_zimwiki_bigger_headings" translatable="false">pref_key__editor_zimwiki_bigger_headings</string>
     <string name="pref_key__zimwiki__reorder_actions" translatable="false">pref_key__zimwiki__reorder_actions</string>
     <string name="pref_key__zimwiki__action_keys" translatable="false">pref_key__zimwiki__action_keys</string>
+    <string name="pref_key__editor_txt2tags_bigger_headings" translatable="false">pref_key__editor_txt2tags_bigger_headings</string>
+    <string name="pref_key__txt2tags__reorder_actions" translatable="false">pref_key__txt2tags__reorder_actions</string>
+    <string name="pref_key__txt2tags__action_keys" translatable="false">pref_key__txt2tags__action_keys</string>
     <string name="pref_key__max_search_depth" translatable="false">pref_key__max_search_depth</string>
     <string name="pref_key__filesearch_ignorelist" translatable="false">pref_key__filesearch_ignorelist</string>
     <string name="pref_key__is_search_query_case_sensitive" translatable="false">pref_key__is_search_query_case_sensitive</string>
@@ -328,6 +347,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="pref_key__todotxt__due_date_offset" translatable="false">pref_key__todotxt_due_date_offset</string>
     <string name="action_format_keyvalue" translatable="false">action_format_keyvalue</string>
     <string name="action_format_plaintext" translatable="false">action_format_plaintext</string>
+    <string name="action_format_txt2tags" translatable="false">action_format_txt2tags</string>
     <string name="action_format_markdown" translatable="false">action_format_markdown</string>
     <string name="action_format_todotxt" translatable="false">action_format_todotxt</string>
     <string name="action_format_zimwiki" translatable="false">action_format_zimwiki</string>

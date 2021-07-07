@@ -453,6 +453,7 @@ public class DocumentEditFragment extends GsFragmentBase implements TextFormat.T
             case R.string.action_format_keyvalue:
             case R.string.action_format_todotxt:
             case R.string.action_format_plaintext:
+            case R.string.action_format_txt2tags:
             case R.string.action_format_markdown: {
                 if (_document != null) {
                     _document.setFormat(itemId);
